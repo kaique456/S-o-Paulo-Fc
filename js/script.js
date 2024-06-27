@@ -9,8 +9,8 @@ function showImg(pic) {
 const fotoGrande = document.getElementById('jogadores')
 const nome = document.getElementById('nome')
 
-function mostraFoto(Param) {
-    fotoGrande.src = `assets/${Param}.webp`
-    nome.innerHTML = Param
+function mostraFoto(param) {
+    fotoGrande.src = `assets/${param}.webp`
+    nome.innerHTML = param
 
 }
